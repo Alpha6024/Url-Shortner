@@ -10,7 +10,7 @@ import org.springframework.http.ResponseEntity;
 import java.net.URI;
 
 @RestController
-@RequestMapping("/api/")
+@RequestMapping("/api/+")
 @AllArgsConstructor
 public class UrlController{
     private final UrlService urlservice;
